@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon Battle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pokemonBattle.css">
+</head>
+<body>
+    <div class="battle-container">
+        <div class="enemy-pokemon">
+            <div class="pokemon-sprite" id="enemy-sprite"></div>
+            <div class="hp-bar" id="enemy-hp">
+                <div class="hp-current"></div>
+            </div>
+        </div>
+        
+        <div class="player-pokemon">
+            <div class="pokemon-sprite" id="player-sprite"></div>
+            <div class="hp-bar" id="player-hp">
+                <div class="hp-current"></div>
+            </div>
+        </div>
+
+        <div class="battle-menu">
+            <div class="message-box" id="message"></div>
+            <div class="action-buttons" id="action-buttons">
+                <button onclick="handleAttack()">FIGHT</button>
+                <button onclick="showBag()">BAG</button>
+                <button onclick="showPokemon()">POKéMON</button>
+                <button onclick="handleRun()">RUN</button>
+            </div>
+            <div class="move-buttons" id="move-buttons" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="pokemonBattle.js"></script>
+</body>
+</html>
