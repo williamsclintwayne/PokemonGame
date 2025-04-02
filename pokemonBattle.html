@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <title>Pokémon Battle</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="pokemonBattle.css">
+    <link rel="stylesheet" href="styles/pokemonBattle.css">
 </head>
 <body>
     <div class="battle-container">
         <div class="enemy-pokemon">
             <div class="pokemon-sprite" id="enemy-sprite"></div>
-            <div class="hp-bar" id="enemy-hp">
-                <div class="hp-current"></div>
+            <div class="info-bar" id="enemy-info-bar">
+                <div id="enemy-pokemonNameLVL">
+                    <div id="enemy-name" class="name-display"></div>
+                    <div id="enemy-level" class="level-display"></div>
+                </div>
+                <div class="hp-bar" id="enemy-hp">
+                    <div class="hp-current"></div>
+                </div>
             </div>
+            
         </div>
         
         <div class="player-pokemon">
             <div class="pokemon-sprite" id="player-sprite"></div>
-            <div class="hp-bar" id="player-hp">
-                <div class="hp-current"></div>
+            <div class="info-bar" id="player-info-bar">
+                <div id="player-pokemonNameLVL">
+                    <div id="player-name" class="name-display"></div>
+                    <div id="player-level" class="level-display"></div>
+                </div>
+                <div class="hp-bar" id="player-hp">
+                    <div class="hp-current"></div>
+                </div>
             </div>
         </div>
 

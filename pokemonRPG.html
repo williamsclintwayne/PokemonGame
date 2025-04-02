@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokémon RPG</title>
+    <link rel="stylesheet" href="styles/pokemonRPG.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <div id="dialogue-box" class="hidden">
+            <p id="dialogue-text"></p>
+            <button id="close-dialogue">OK</button>
+        </div>
+        <button id="start-button">Start Game</button>
+        <div id="inventory" class="hidden"></div> <!-- Ensure inventory is present -->
+        <div id="transition-screen"></div> <!-- Ensure transition screen is present -->
+    </div>
+    <script src="pokemonRPG.js"></script>
+</body>
+</html>
