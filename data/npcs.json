@@ -1,0 +1,14 @@
+[
+    {
+        "x": 100,
+        "y": 200,
+        "spriteFrame": 0,
+        "dialog": "Hello, trainer!"
+    },
+    {
+        "x": 300,
+        "y": 400,
+        "spriteFrame": 1,
+        "dialog": "Welcome to the world of Pokémon!"
+    }
+]
